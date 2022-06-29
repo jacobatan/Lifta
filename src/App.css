@@ -59,6 +59,8 @@ body {
   width: 700px;
   height: 900px;
   margin-top: -330px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .exercise-card {
@@ -91,8 +93,8 @@ body {
 }
 
 .search-btn:hover {
-  color: #ff2625 !important;
-  border: 1px solid #ff2625 !important;
+  color: #0713bb !important;
+  border: 1px solid #0713bb !important;
 }
 
 .exercise-video {
