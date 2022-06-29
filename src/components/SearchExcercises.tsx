@@ -45,6 +45,7 @@ const SearchExcercises = ({ setExercises, bodyPart, setBodyPart }: any) => {
         sx={{ fontSize: { lg: "44px", xs: "30px" } }}
         mb="50px"
         textAlign="center"
+        color="#edeced"
       >
         Awesome Excercises You <br />
         Should Know
@@ -53,13 +54,18 @@ const SearchExcercises = ({ setExercises, bodyPart, setBodyPart }: any) => {
       <Box position="relative" mb="72px">
         <TextField
           sx={{
-            height: "76px",
-            input: { fontWeight: "700", border: "none", borderRadius: "4px" },
+            height: "100%",
+            input: {
+              fontWeight: "700",
+              border: "none",
+              borderRadius: "4px",
+              color: "white",
+            },
             width: {
               lg: "800px",
               xs: "350px",
             },
-            backgroundColor: "#fff",
+            backgroundColor: "#24282e",
             borderRadius: "42px",
           }}
           value={search}
@@ -73,7 +79,7 @@ const SearchExcercises = ({ setExercises, bodyPart, setBodyPart }: any) => {
         <Button
           className="search-btn"
           sx={{
-            bgcolor: "#FF2625",
+            bgcolor: "#adee96",
             color: "#FFF",
             textTransform: "none",
             width: { lg: "175px", xs: "80px" },

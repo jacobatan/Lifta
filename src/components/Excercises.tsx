@@ -38,7 +38,7 @@ const Excercises = ({ setExercises, bodyPart, exercises }: any) => {
           exerciseOptions
         );
       }
-      
+
       setExercises(exercisesData);
     };
 
@@ -47,7 +47,7 @@ const Excercises = ({ setExercises, bodyPart, exercises }: any) => {
 
   return (
     <Box id="excercises" sx={{ mt: { lg: "110px" } }} mt="50px" p="20px">
-      <Typography variant="h3" mb="46px">
+      <Typography variant="h3" mb="46px" color="#edeced">
         Showing Results
       </Typography>
       <Stack
@@ -76,6 +76,9 @@ const Excercises = ({ setExercises, bodyPart, exercises }: any) => {
             page={currentPage}
             onChange={paginate}
             size="large"
+            sx={{
+              color: "#edeced",
+            }}
           />
         )}
       </Stack>

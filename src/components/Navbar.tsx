@@ -27,13 +27,13 @@ const Navbar = () => {
           }}
         />
       </Link>
-      <Stack direction="row" gap="40px" fontSize="24px" alignItems="flex-end">
+      {/* <Stack direction="row" gap="40px" fontSize="24px" alignItems="flex-end">
         <a
           href="#excercises"
           style={{
             textDecoration: "none",
-            color: "#3A1212",
-            borderBottom: "3px solid #FF2625",
+            color: "#edeced",
+            borderBottom: "3px solid #adee96",
           }}
         >
           Home
@@ -44,7 +44,7 @@ const Navbar = () => {
         >
           Excercses
         </a>
-      </Stack>
+      </Stack> */}
     </Stack>
   );
 };

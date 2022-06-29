@@ -1,6 +1,6 @@
 body {
   font-family: "Josefin Sans";
-  background-color: #fffafb;
+  background-color: #1d2025;
 }
 
 * {
@@ -22,7 +22,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ff2625;
+  color: #adee96;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
@@ -66,8 +66,8 @@ body {
 .exercise-card {
   width: 400px;
   height: 445px;
-  background: #fff;
-  border-top: 4px solid #ff2625;
+  background: #24282e;
+  border-top: 4px solid #adee96;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
@@ -89,7 +89,7 @@ body {
 
 .exercise-card:hover,
 .bodyPart-card:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.01, 1.01);
 }
 
 .search-btn:hover {
