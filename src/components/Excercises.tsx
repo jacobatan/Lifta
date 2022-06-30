@@ -11,7 +11,7 @@ const Excercises = ({ setExercises, bodyPart, exercises }: any) => {
 
   const indexOfLastExercise = currentPage * exercisesPerPage;
   const indexOfFirstExercise = indexOfLastExercise - exercisesPerPage;
-  const currentExercises = exercises.slice(
+  const currentExercises = exercises?.slice(
     indexOfFirstExercise,
     indexOfLastExercise
   );
@@ -23,7 +23,6 @@ const Excercises = ({ setExercises, bodyPart, exercises }: any) => {
 
   useEffect(() => {
     const fetchExercisesData = async () => {
-      console.log("1");
       let exercisesData = [];
 
       if (bodyPart === "all") {
