@@ -11,7 +11,10 @@ const Footer = () => (
       px="40px"
       py="40px"
     >
-      <img src={Logo} alt="logo" style={{ width: "200px", height: "41px" }} />
+      {/* <img src={Logo} alt="logo" style={{ width: "200px", height: "41px" }} /> */}
+      <Typography variant="h3" sx={{ color: "white" }}>
+        Lifta
+      </Typography>
     </Stack>
   </Box>
 );
