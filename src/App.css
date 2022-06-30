@@ -56,7 +56,7 @@ body {
   position: absolute;
   right: 40px;
   top: 0px;
-  width: 700px;
+  width: 600px;
   height: 900px;
   margin-top: -330px;
   background-repeat: no-repeat;
@@ -93,8 +93,8 @@ body {
 }
 
 .search-btn:hover {
-  color: #0713bb !important;
-  border: 1px solid #0713bb !important;
+  /* color: #0713bb !important; */
+  border: 1px solid #04692b !important;
 }
 
 .exercise-video {

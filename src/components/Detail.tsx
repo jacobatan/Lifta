@@ -1,17 +1,17 @@
 import React from "react";
 import { Typography, Stack, Button } from "@mui/material";
 
-import BodyPartImage from "../assets/icons/body-part.png";
-import TargetImage from "../assets/icons/target.png";
-import EquipmentImage from "../assets/icons/equipment.png";
+import BodyPartImage from "../assets/icons/humanoid(1).png";
+import TargetImage from "../assets/icons/target(1).png";
+import EquipmentImage from "../assets/icons/pilates(1).png";
 
 const Detail = ({ exerciseDetail }: any) => {
   const { bodyPart, gifUrl, name, target, equipment } = exerciseDetail;
 
   const extraDetail = [
-    { icon: BodyPartImage, name: bodyPart },
-    { icon: TargetImage, name: target },
-    { icon: EquipmentImage, name: equipment },
+    { icon: BodyPartImage, name: bodyPart, text: "Targets" },
+    { icon: TargetImage, name: target, text: "Targets" },
+    { icon: EquipmentImage, name: equipment, text: "Equipment" },
   ];
 
   return (
@@ -37,7 +37,7 @@ const Detail = ({ exerciseDetail }: any) => {
           <Stack key={item.name} gap="24px" sx={{ alignItems: "center" }}>
             <Button
               sx={{
-                background: "#aded98",
+                background: "#102a43",
                 borderRadius: "50%",
                 width: "100px",
                 height: "100px",
@@ -55,7 +55,7 @@ const Detail = ({ exerciseDetail }: any) => {
               variant="h6"
               sx={{ textTransform: "capitalize", color: "#edeced" }}
             >
-              {item.name}
+              {item.text}: {item.name}
             </Typography>
           </Stack>
         ))}

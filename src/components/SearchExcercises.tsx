@@ -72,7 +72,7 @@ const SearchExcercises = ({ setExercises, bodyPart, setBodyPart }: any) => {
           onChange={(e) => {
             setSearch(e.target.value.toLowerCase());
           }}
-          placeholder="Search Excercises"
+          placeholder="Search Excercises / Equipment / Target / Body Part"
           type="text"
         />
 
